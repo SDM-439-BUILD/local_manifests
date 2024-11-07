@@ -7,20 +7,24 @@
   <remote  name="SDM-439-BUILD"
            fetch="https://github.com/SDM-439-BUILD"
            revision="lineage-19.1" />
+  <remote  name="LineageOS"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-22.0" />
+  
   
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"      groups="device" remote="mi-thorium-lineageos"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common"  groups="device" remote="mi-thorium-lineageos"/>
 
  <!-- Mi8937 -->
-  <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937"    groups="device" remote="mi-thorium-lineageos" revision="mi8937/lineage-20"/>
+  <!-- <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937"    groups="device" remote="mi-thorium-lineageos" revision="mi8937/lineage-20"/>
   <project path="device/xiaomi/Mi8917"  name="android_device_xiaomi_Mi8917"     groups="device" remote="mi-thorium-lineageos"/>
   <project path="device/xiaomi/Mi8937"  name="android_device_xiaomi_Mi8937"     groups="device" remote="mi-thorium-lineageos"/>
   <project path="vendor/xiaomi/Mi8917"  name="proprietary_vendor_xiaomi_Mi8917" groups="device" remote="mi-thorium-lineageos"/>
   <project path="vendor/xiaomi/Mi8937"  name="proprietary_vendor_xiaomi_Mi8937" groups="device" remote="mi-thorium-lineageos"/>
 
  <!-- Mi439 -->
-  <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439"    groups="device" remote="mi-thorium-lineageos" revision="mi439/lineage-20"/>
+  <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937"    groups="device" remote="mi-thorium-lineageos" revision="lineage-22.0"/>
   <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="mi-thorium-lineageos"/>
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium-lineageos"/>
 </manifest>
