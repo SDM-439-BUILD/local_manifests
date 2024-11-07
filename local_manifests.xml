@@ -13,7 +13,7 @@
   
   
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"      groups="device" remote="mi-thorium-lineageos"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"      groups="device" remote="SDM-439-BUILD" revision="lineage-22.0"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common"  groups="device" remote="mi-thorium-lineageos"/>
 
  <!-- Mi8937 -->
